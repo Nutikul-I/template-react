@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: .              # โฟลเดอร์ปัจจุบันที่มี Dockerfile
+      dockerfile: Dockerfile  # (optional ถ้าไฟล์ชื่อ Dockerfile)
+    container_name: template
+    ports:
+      - "8080:8080"           # host:container
+    restart: always
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge

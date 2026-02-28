@@ -1,0 +1,61 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.6",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@wardenswap/bestrate-sdk": "^2.10.0",
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.1",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "pdfmake": "https://github.com/Nutikul-I/pdfmake-thai",
+    "react": "^19.2.1",
+    "react-bootstrap": "^2.10.10",
+    "react-chartjs-2": "^5.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.1",
+    "react-image-file-resizer": "^0.4.8",
+    "react-pro-sidebar": "^1.1.0",
+    "react-qr-code": "^2.0.18",
+    "react-router": "7.10.1",
+    "react-router-dom": "^7.10.1",
+    "react-scripts": "5.0.1",
+    "react-switch": "^7.1.0",
+    "react-turnstile": "^1.1.4",
+    "sweetalert2": "^11.26.4",
+    "thai-baht-text": "^2.0.5",
+    "web-vitals": "^5.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
